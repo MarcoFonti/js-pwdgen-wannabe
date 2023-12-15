@@ -24,3 +24,7 @@ Salvo in una variabile
 */
 const colorFavorite = window.prompt ('Qual\è il tuo colore preferito?');
 console.log('Colore preferito:' + colorFavorite);
+
+// Recupero Id HTML
+const element = document.getElementById('userData');
+

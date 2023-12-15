@@ -19,3 +19,7 @@
 2 Chiedo all'utente il suo colore preferito
 
 3 Salvo in una variabile
+
+---
+
+4 Recupero Id in HTML
