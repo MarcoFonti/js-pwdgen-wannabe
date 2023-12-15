@@ -22,4 +22,8 @@
 
 ---
 
-4 Recupero Id in HTML
+4 Creiamo la password
+
+5 Recupero Id in HTML
+
+6 Creiamo messaggio dell'utente con i dati forniti
