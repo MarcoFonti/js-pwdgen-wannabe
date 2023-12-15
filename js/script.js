@@ -41,6 +41,8 @@ userData.innerText = messPass + userPass;
 const elemetSafe = document.getElementById('securePass');
 console.log(securePass);
 
-
+//Creiamo messaggio Passowrd più sicura dell'utente
+let messPassSafe = ' Consiglio vivamente di usare questa password più sicura ';
+securePass.innerText = messPassSafe + userPass + '21';
 
 
