@@ -31,6 +31,12 @@ console.log(userPass);
 
 // Recupero Id HTML
 const element = document.getElementById('userData');
+console.log(userData);
+
+//Creiamo messaggio Passowrd dell'utente
+let messPass = ' Benvenuto Marco, la tua password è ';
+userData.innerText = messPass + userPass;
+
 
 
 
