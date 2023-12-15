@@ -27,3 +27,5 @@
 5 Recupero Id in HTML
 
 6 Creiamo messaggio Passowrd dell'utente con i dati forniti
+
+7 Aggiungo Numero 21

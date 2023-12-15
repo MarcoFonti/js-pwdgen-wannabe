@@ -37,6 +37,9 @@ console.log(userData);
 let messPass = ' Benvenuto Marco, la tua password è ';
 userData.innerText = messPass + userPass;
 
+// Recupero Id HTML
+const elemetSafe = document.getElementById('securePass');
+console.log(securePass);
 
 
 
