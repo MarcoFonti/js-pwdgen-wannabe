@@ -11,3 +11,11 @@
 2 Chiedo all'utente il suo cognome
 
 3 Salvo in una variabile
+
+---
+
+1 Diachiaro variabile: colore preferito
+
+2 Chiedo all'utente il suo colore preferito
+
+3 Salvo in una variabile

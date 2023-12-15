@@ -3,16 +3,24 @@ console.log('JS OK')
 
 /* 
 Dichairo Variabile 
-Chiedo il nome al''utente
+Chiedo il nome all'utente
 Salvo in una variabile 
 */
 const firstName = window.prompt ('Come ti chiami?');
-console.log(firstName);
+console.log('Nome:' + firstName);
 
 /* 
 Dichairo Variabile 
-Chiedo il cognome al''utente
+Chiedo il cognome all'utente
 Salvo in una variabile 
 */
 const surName = window.prompt ('Qual\è il tuo cognome?');
-console.log(surName);
+console.log('Cognome:' + surName);
+
+/* 
+Dichairo Variabile 
+Chiedo il colore preferito all'utente
+Salvo in una variabile 
+*/
+const colorFavorite = window.prompt ('Qual\è il tuo colore preferito?');
+console.log('Colore preferito:' + colorFavorite);
