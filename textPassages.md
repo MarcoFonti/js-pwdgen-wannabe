@@ -3,3 +3,11 @@
 2 Chiedo all'utente il suo nome
 
 3 Salvo in una variabile
+
+---
+
+1 Diachiaro variabile: cognome
+
+2 Chiedo all'utente il suo cognome
+
+3 Salvo in una variabile
