@@ -1,48 +1,46 @@
 // Check
 console.log('JS OK')
 
-/* 
-Dichairo Variabile 
-Chiedo il nome all'utente
-Salvo in una variabile 
-*/
+
+/* CREO UNA VARIBILE E GLI ASSEGNO IL VALORE CHE INSERISCE L'UTENTE */
 const firstName = window.prompt ('Come ti chiami?', 'Marco');
 console.log('Nome:' + firstName);
 
-/* 
-Dichairo Variabile 
-Chiedo il cognome all'utente
-Salvo in una variabile 
-*/
+
+/* CREO UNA VARIBILE E GLI ASSEGNO IL VALORE CHE INSERISCE L'UTENTE */
 const surName = window.prompt ('Qual\è il tuo cognome?', 'Fonti');
 console.log('Cognome:' + surName);
 
-/* 
-Dichairo Variabile 
-Chiedo il colore preferito all'utente
-Salvo in una variabile 
-*/
+
+/* CREO UNA VARIBILE E GLI ASSEGNO IL VALORE CHE INSERISCE L'UTENTE */
 const colorFavorite = window.prompt ('Qual\è il tuo colore preferito?', 'Nero');
 console.log('Colore preferito:' + colorFavorite);
 
-// Creiamo la password 
+
+/* CREO UNA VARIBILE E GLI ASSEGNO I VALORI CHIESTI ALL'UTENTE CONCATENANDOLI */
 let userPass = `${firstName}${surName}${colorFavorite}${23}`;
 console.log(userPass);
 
-// Recupero Id HTML
+
+/* RECUPERO ID IN HTML */
 const element = document.getElementById('userData');
 console.log(userData);
 
-//Creiamo messaggio Passowrd dell'utente
+
+/* CREO UNA VARIBILE IN CUI METTO IL MESSAGGIO */
 let messPass = ' Benvenuto Marco, la tua password è ';
+/* STAMPO IN PAGINA CONCATENANDO IL MESSAGGIO + PASSWORD */
 userData.innerText = messPass + userPass;
 
-// Recupero Id HTML
+
+/* RECUPERO ID IN HTML */
 const elemetSafe = document.getElementById('securePass');
 console.log(securePass);
 
-//Creiamo messaggio Passowrd più sicura dell'utente
+
+/* CREO UNA VARIBILE IN CUI METTO IL MESSAGGIO */
 let messPassSafe = ' Consiglio vivamente di usare questa password più sicura ';
+/* STAMPO IN PAGINA CONCATENANDO IL MESSAGGIO + PASSWORD + 21 A STRINGA */
 securePass.innerText = messPassSafe + userPass + '21';
 
 
